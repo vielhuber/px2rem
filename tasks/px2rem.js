@@ -110,7 +110,7 @@ module.exports = function(grunt)
                     for (var i = p - 1; i >= 0; i--)
                     {
                         // if this is not numeric, skip
-                        if (isNaN(parseFloat(line[i])) || !isFinite(line[i]))
+                        if ( line[i] != "." && (isNaN(parseFloat(line[i])) || !isFinite(line[i])) )
                         {
                             break;
                         }
@@ -122,6 +122,8 @@ module.exports = function(grunt)
                     h.reverse();
                 }
                 //console.log(helper);
+
+
 
                 // prepare replacement
                 var replace = [];

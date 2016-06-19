@@ -1,7 +1,7 @@
 {
   "name": "grunt-contrib-px2rem",
   "description": "Automatically converts px to rem and makes websites responsive instantly.",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "homepage": "https://vielhuber.de",
   "author": "vielhuber",
   "devDependencies": {
